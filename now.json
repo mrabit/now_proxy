@@ -1,0 +1,5 @@
+{
+  "name": "proxy",
+  "version": 2,
+  "routes": [{ "src": "/(.*)", "dest": "https://ssr.mrabit.com/$1" }]
+}
